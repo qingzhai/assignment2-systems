@@ -2,6 +2,18 @@
 cs336-spring2024-assignment-2-submission.zip
 test_results.xml
 
+# Local editor settings and generated experiment artifacts
+.idea/
+.DS_Store
+.venv/
+**/__pycache__/
+*.pyc
+*.nsys-rep
+*.pickle
+*smoke*.csv
+# Local DDP run not used in the retained analysis
+profiles/ddp_sync_bench.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
